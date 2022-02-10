@@ -1,0 +1,129 @@
+.slider1{
+    height: 450px;
+    width: 1075px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+}
+
+.section-slider{
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+}
+
+.swiper{
+    width: 950px;
+}
+
+section .card1 .image1{
+    height: 250px;
+    width: 280px;
+}
+
+section .card1 .image1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image1{
+    background-color: rgb(200, 238, 240);
+    border-radius: 20px;
+    padding: 30px;
+}
+/* 
+.card1{
+    position: relative;
+    background-color: rgb(200, 238, 240);
+    border-radius: 20px;
+} */
+
+/* .card1::before{
+    content: "";
+    position: absolute;
+} */
+
+.card1 .card-content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.swiper-pagination-bullet{
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+    background-color: rgb(29, 229, 240);
+}
+
+.extra{
+    width: 70%;
+    margin-top: 5%;
+}
+@media screen and (max-width: 768px){
+    .extra {
+        width: 85%;
+        padding: 15px;
+    }
+/* .form1{
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+    background: rgb(211, 242, 243);
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.form1-cross {
+    position: absolute;
+    top: 386%;
+    right: 327px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 768px){
+.form1 {
+    width: 85%;
+    padding: 15px;
+}
+}
+
+@media (max-width: 574px){}
+.form1-cross {
+    width: fit-content;
+    right: -300px;
+}
+}
+
+@media screen and (max-width: 768px){}
+.form1-cross {
+    position: relative;
+    top: -54px;
+    right: -316px;
+    font-size: 2rem;
+    cursor: pointer;
+    width: fit-content;
+}
+}
+@media screen and (max-width: 768px){
+.form1-cross {
+    position: relative;
+    top: -54px;
+    right: -346px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+}
+.form1-cross {
+    position: absolute;
+    top: 386%;
+    right: 327px;
+    font-size: 2rem;
+    cursor: pointer;
+} */
