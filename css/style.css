@@ -643,7 +643,7 @@ padding-right: 10px;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 94%;
-  height:143px;
+  height:250px;
   margin: auto;
   padding: 64px 8px;
   background: url("../assets/images/featured-in-new.png");
@@ -666,7 +666,7 @@ padding-right: 10px;
   padding: 0px 17px;
 }
 .featured {
-  margin-top: 90px;
+  margin-top: -20px;
   margin-bottom: 90px;
 }
 
@@ -1541,7 +1541,7 @@ font-size : 13px!important;
 
   .blue{
     margin-left: 5px;
-    margin-top: 21px;
+    margin-top: 0px;
   
   }
   .con-why-us h2.blue {
@@ -1557,7 +1557,7 @@ font-size : 13px!important;
   .light1{
     margin-left: 5px;
     margin-bottom: 0px !important;
-    margin-top: 20px;
+    margin-top: 0px;
     font-weight: 300;
   }
 

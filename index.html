@@ -139,7 +139,7 @@
           <div class="form-cross">
             <!-- <i class="fas fa-times"></i> -->
           </div>
-          <form class="wu request" action="#">
+          <form class="wu request" action="./php/form.php" method="post">
             <div>
               <input type="text" name="Fname" placeholder="NAME" required />
             </div>
@@ -166,12 +166,12 @@
               <input style="width: 100%;" class="wa wp" type="text" name="whatsapp"
                 value="GET UPDATES ON WHATSAPP"></input>
               <label class="switch">
-                <input type="checkbox" name="whatsappUpdate" />
+                <input type="checkbox" name="whatsappUpdate" value="Yes" />
                 <span class="slider round"></span>
               </label>
             </div>
             <br />
-            <input type="submit" value="SUBMIT" />
+            <input type="submit" name="submit" value="SUBMIT" />
           </form>
         </section>
 
@@ -392,15 +392,27 @@
 
     </div>
     <div class="featured-con-parent">
-      <a
-        href="https://zeenews.india.com/companies/wesettle-for-the-one-s-looking-for-a-journey-of-experiences-networking-and-adding-value-in-other-s-life-2314959.html"><img
-          src="./assets/images/image-009.png" height="120px" alt=""></a>
-      <!--<a href="https://discordiummagazine.com/?p=998"><img src="./assets/images/image-010.png" height="120px"
+      <div class="row">
+        <div class="col-sm-4">
+          <a
+          href="https://zeenews.india.com/companies/wesettle-for-the-one-s-looking-for-a-journey-of-experiences-networking-and-adding-value-in-other-s-life-2314959.html">
+          <img src="./assets/images/image-009.png" height="120px" alt=""></a>
+          <!--<a href="https://discordiummagazine.com/?p=998"><img src="./assets/images/image-010.png" height="120px"
           alt=""></a>-->
-      <a href="https://dubeat.com/2021/04/du-21-under-21-setting-high-benchmarks/"><img
-          src="./assets/images/image-011.png" height="120px" alt=""></a>
-      <a href="https://www.hindustantimes.com/brand-post/if-you-are-a-student-looking-out-for-accommodation-wesettle-can-help/story-u5FBFDx625DS8EMtwMGzuI.html
-"><img src="./assets/images/image-012.png" height="120px" alt=""></a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://dubeat.com/2021/04/du-21-under-21-setting-high-benchmarks/">
+            <img src="./assets/images/image-011.png" height="120px" alt=""></a>
+        </div>
+      
+        <div class="col-sm-4">
+          <a href="https://www.hindustantimes.com/brand-post/if-you-are-a-student-looking-out-for-accommodation-wesettle-can-help/story-u5FBFDx625DS8EMtwMGzuI.html">
+            <img src="./assets/images/image-012.png" height="120px" alt=""></a>
+
+        </div>
+      
+      </div>
+      
     </div>
   </section>
 
@@ -410,7 +422,7 @@
     <div class="form-cross">
       <!-- <i class="fas fa-times"></i> -->
     </div>
-    <form class="wu request" action="#">
+    <form class="wu request" action="./php/form.php" method="post">
       <div>
         <input type="text" name="Fname" placeholder="NAME" required />
       </div>
@@ -436,7 +448,7 @@
       <div class="icon">
         <input style="width: 100%;" class="wa wp" type="text" name="whatsapp" value="GET UPDATES ON WHATSAPP"></input>
         <label class="switch">
-          <input type="checkbox" name="whatsappUpdate" />
+          <input type="checkbox" name="whatsappUpdate" value="Yes" />
           <span class="slider round"></span>
         </label>
       </div>
