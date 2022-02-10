@@ -7,7 +7,7 @@ body {
   box-sizing: border-box;
   background-color: white;
  
-  background-image: url(/public/assets/images/photo.jpeg);
+  background-image: url(../assets/images/photo.jpeg);
   background-size: cover;
 }
 

@@ -80,7 +80,7 @@ input::placeholder{
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Space+Grotesk&display=swap");
 
 body {
-  background: url(/public/assets/images/photo.jpeg);
+  background: url(../assets/images/photo.jpeg);
   background-size: cover;
 }
 

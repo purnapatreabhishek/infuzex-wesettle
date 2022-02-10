@@ -81,7 +81,7 @@ input::placeholder{
 
 body {
   
-  background: url(/public/assets/images/photo.jpeg);
+  background: url(../assets/images/photo.jpeg);
   background-size: cover;
 }
 

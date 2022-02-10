@@ -65,7 +65,7 @@ color:#42444C;
 .intro {
   /* background: url('./assets/images/image-001.jpg'); */
 
-  background: url(/public/assets/images/homecover.jpg);
+  background: url(../assets/images/homecover.jpg);
   background-repeat: round;
   width: 100%;
   height: 83vh;
@@ -529,7 +529,7 @@ padding-right: 10px;
   align-content: center;
   background-repeat: no-repeat;
   align-items: center;
-  background-image: url(/public/assets/images/review.png);
+  background-image: url(../assets/images/review.png);
 }
 
 
@@ -736,7 +736,7 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-  background-image: url(/public/assets/images/whatsapp-social-media-svgrepo-com.svg);
+  background-image: url(../assets/images/whatsapp-social-media-svgrepo-com.svg);
 }
 
 .form {
@@ -822,7 +822,7 @@ form.wu {
   font-size: 1.5rem;
 }
 .flag-svg {
-  background-image: url(/public/assets/images/india.svg);
+  background-image: url(../assets/images/india.svg);
   /* width: 30px; */
   /* height: 30px; */
   background-position: center;
@@ -1092,7 +1092,7 @@ height: 16%!important;
     background-position: center;
     align-items: center;
     background-position: right;
-    background-image: url(/public/assets/images/review.png);
+    background-image: url(../assets/images/review.png);
     }
 
     .review-section{
@@ -1387,7 +1387,7 @@ height: 16%!important;
 }
   .intro{
     height:95vh;
-    background: url(/public/assets/images/bgimagemobile.jpg);
+    background: url(../assets/images/bgimagemobile.jpg);
     background-repeat: no-repeat;
     background-size: cover!important;
     width: 100%!important;

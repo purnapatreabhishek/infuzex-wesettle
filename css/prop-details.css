@@ -40,7 +40,7 @@ h1 {
 .intro {
   /* background: url('./assets/images/image-001.jpg'); */
   background: linear-gradient(270deg, rgb(118 117 118 / 39%), rgb(0 0 0 / 79%)),
-    url(/public/assets/images/image-001.jpg);
+    url(../assets/images/image-001.jpg);
   width: 100%;
   color: #fff;
   height: 14vh;
